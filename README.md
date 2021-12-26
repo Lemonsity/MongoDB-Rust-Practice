@@ -2,7 +2,7 @@
 ## Installation
 [Official WSL installation](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database) \
 Run `sudo mongod --dbpath ~/data/db` to start database\
-Run `mongo` in separate terminal to access **mongodb shell**, which allows to make database query in terminal\
+Run `mongo` in separate terminal to access **mongodb shell**, which allows to make database query in terminal
 
 > This installation require `sudo` which we may not want, [this article](https://dev.to/seanwelshbrown/installing-mongodb-on-windows-subsystem-for-linux-wsl-2-19m9) may help
 
@@ -10,7 +10,7 @@ Run `mongo` in separate terminal to access **mongodb shell**, which allows to ma
 Official site's code
 * [From GitHub](https://github.com/mongodb/mongo-rust-driver) 
 * [From MongoDB docs](https://docs.mongodb.com/drivers/rust/) 
-should be usable without much issue\
+should be usable without much issue
 
 If the database is created like default, the connection will be hosted on **port 27017**, and the connection string will be `"mongodb://localhost:27017"`
 
