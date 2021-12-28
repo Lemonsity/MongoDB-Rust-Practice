@@ -12,7 +12,7 @@ async fn main() -> mongodb::error::Result<()> {
 
     // Parse your connection string into an options struct
     let mut client_options =
-        ClientOptions::parse("mongodb://localhost:27017") // <- this is the connection string
+        ClientOptions::parse("mongodb://myAdmin:myAdmin@localhost:27017") // <- this is the connection string
             .await?;
 
     // Manually set an option
