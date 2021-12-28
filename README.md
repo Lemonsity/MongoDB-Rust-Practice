@@ -2,7 +2,7 @@
 ## Installation
 [Official WSL installation](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database)
 
-Create a directory (`For sake of explaination, call this directory .../dbDir`). This is where the database is going to be stored.
+Create a directory (For sake of explaination, call this directory `.../dbDir`). This is where the database is going to be stored.
 
 Run `chmod o+w -R .../dbDir` to grant write permission to MongoDB
 
